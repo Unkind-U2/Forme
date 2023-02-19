@@ -1,0 +1,42 @@
+/* フッター */
+footer{
+    position: absolute;
+    bottom: -680%;
+    left: 5%;
+    font-size: 1rem;
+
+    a{
+        color: white;
+    }
+    div{
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        align-items: flex-end;
+        border-bottom: solid 3px white;
+        img{
+            width:4vw;
+    }
+    }
+    
+
+    #triangle{
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-top: .5rem solid transparent;
+        border-bottom: .5rem solid transparent;
+        border-left: .5rem solid white;
+        border-right: .5rem solid transparent;
+        margin: auto 0 1px ;
+        padding: 0;
+    }
+    nav{
+    display: flex;
+    line-height: 2;
+        ul{
+            border-left: solid 3px white;
+            margin-right: 20rem;
+        }
+}
+}

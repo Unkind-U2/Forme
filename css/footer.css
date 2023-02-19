@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* フッター */
+footer {
+  position: absolute;
+  bottom: -680%;
+  left: 5%;
+  font-size: 1rem;
+}
+footer a {
+  color: white;
+}
+footer div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  border-bottom: solid 3px white;
+}
+footer div img {
+  width: 4vw;
+}
+footer #triangle {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 0.5rem solid transparent;
+  border-bottom: 0.5rem solid transparent;
+  border-left: 0.5rem solid white;
+  border-right: 0.5rem solid transparent;
+  margin: auto 0 1px;
+  padding: 0;
+}
+footer nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 2;
+}
+footer nav ul {
+  border-left: solid 3px white;
+  margin-right: 20rem;
+}/*# sourceMappingURL=footer.css.map */

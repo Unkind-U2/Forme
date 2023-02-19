@@ -1,0 +1,345 @@
+$pcSize:1800px;
+html{
+    width: $pcSize;
+    background-size: $pcSize;
+    background-image: url(../img/background.jpg)
+}
+
+#first_page{
+    display: flex;
+    height: 120%;
+    width: 100%;
+
+    $onlineWidth:66%;
+    #online{
+        text-align: center;
+        width: $onlineWidth;
+        padding-top: 6rem;
+        font-size: 4rem;
+        margin-left: 10%;
+
+        span{
+            display: inline-block;
+        }
+        *{
+          letter-spacing: .5rem;  
+        }
+
+        .second{
+            position: relative;
+        }
+        .second::after{
+            content: "";
+            position: absolute;
+            bottom: -1rem;
+            left: 25%;
+            height:3px;
+            width: 50%;
+            background-color: black;
+        }
+        
+        button{
+            font-size:3rem;
+            padding: .5rem 1.5rem;
+        }
+    }
+    #vertical{
+        width: calc(90% - $onlineWidth - 10rem);
+        height: 100%;
+        font-size: 6rem;
+        position: relative;
+        p{
+            writing-mode: vertical-rl;
+            margin:0;
+            position: absolute;
+        }
+        .first{
+            top: 0;
+            right: 1rem;
+        }
+        .second{
+            bottom: 18rem;
+            left: 0;
+        }
+    }    
+}
+
+// 月1万円台からのプランをご用意
+#plan1{
+    height: 10rem;
+    width: 100%;
+    
+    li{
+        font-size: 2rem;
+        letter-spacing: .5rem;
+        line-height: 200%;
+        position: relative;
+        span{
+            font-size: 3rem;
+        }
+    }
+    li:nth-child(2)::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        background-color: black;
+        width: 32rem;
+        height: 3px;
+    }    
+    li:nth-child(1)::after{
+        content: "";
+        position: absolute;
+        bottom: 1rem;
+        left: 34%;
+        background-color: #EFBC5C;
+        z-index: -1;
+        width: 25rem;
+        height: 30%;
+    }    
+}
+
+#plan2{
+    height: 20%;
+    width: calc(100% - 15rem);
+    margin-left: 15rem;
+
+    .container:nth-child(1){
+        width: 40%;
+        border-left: solid 3px black;
+    }
+    .container:nth-child(2){
+        width: 40%;
+        border-left: solid 3px black;
+        border-right: solid 3px black;
+    }
+
+    p{
+        font-size: 3rem;
+        line-height: 50%;
+        letter-spacing: .5rem;
+        position: relative;
+    }
+    p:nth-child(1){
+        left: -5rem;
+    }
+
+    span{
+        font-size: 4rem;
+        font-family: 'Oswald', sans-serif;
+        position: relative;
+        
+        }    
+    span::after{
+            content: "";
+            position: absolute;
+            bottom: 1rem;
+            left: 0;
+            background-color: #EFBC5C;
+            z-index: -1;
+            width: 100%;
+            height: 30%;
+    }
+}
+
+#detail{
+    font-size: 2rem;
+    position: relative;
+    ::before{
+        content: "";
+        position: absolute;
+        bottom: -10%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        background-color: black;
+        z-index: -1;
+        width: 25rem;
+        height: 3px;
+    }
+    ::after{
+        content: "";
+        position: absolute;
+        bottom: -30%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        background-color: black;
+        z-index: -1;
+        width: 25rem;
+        height: 3px;
+}
+}
+#about_us,#feature{
+    display: flex;
+}
+#about_us{
+    #pcHidden{
+        display: none;
+    }
+    margin-top: 25rem;
+    margin-left: 12rem;
+    height: 30%;
+    width: calc(100% - 12rem);
+
+    .title{
+        font-size: 2rem;
+    }
+    
+    .content{
+        font-size: 1.5rem;
+        margin-left: 5rem;
+        letter-spacing: .3rem;
+    }
+}
+#feature{
+    #pcHidden{
+        display: none;
+    }
+    margin-top: 12rem;
+    margin-left: 12rem;
+    height: 30%;
+    width: calc(100% - 12rem);
+
+    .title{
+        font-size: 2rem;
+    }
+    
+    .content{
+        font-size: 1.5rem;
+        margin-left: 5rem;
+        letter-spacing: .3rem;
+    }
+}
+
+#plan3{
+    margin-top: 20rem;
+    letter-spacing: .3rem;
+    
+    .title{
+        font-size: 3rem;
+        margin-bottom: 13rem;
+    }
+    .container{
+        margin-bottom: 6rem;
+        margin-left: 12rem;
+        .grade{
+            font-size: 3rem;
+            
+            span{
+                font-size: 2rem;
+            }
+        }
+        .subject{
+            margin: 6rem 0;
+            font-size: 2rem;
+
+            span{
+                font-size: 3rem;
+            }
+        }
+        .course{
+            font-size: 2rem;
+
+            span{
+                font-size: 3rem;
+            }
+        }
+        
+    }
+
+    #exception{
+        font-size: 2rem;
+        position: relative;
+    }
+    #exception::after{
+        content: "";
+        background: black;
+        position: absolute;
+        bottom: -10%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width:60rem;
+        height: 3px;
+}
+}
+#contact {
+    // width: 80%;
+    font-size:2rem;
+    margin: 0 10% 5rem 10%;
+    letter-spacing: .3rem;
+    div {
+        width: 40%;
+
+        p{
+            position: relative;
+        }
+        p:nth-child(2)::after{
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                background-color: #EFBC5C;
+                z-index: -1;
+                width: 20rem;
+                height: 50%;
+        }
+    }
+}
+
+// ボタン
+button{
+    font-size:2rem;
+    padding: .5rem 1.5rem;   
+}
+
+// 講師
+#teacher{
+    height: 100%;
+    width: 100%;
+    margin: 17rem 0 5rem;
+    position: relative;
+
+    .title{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #message{
+        margin: 6rem 5rem 0 50rem;
+        font-size: 1.2rem;
+        line-height: 4;
+    }
+
+    #name{
+        position: absolute;
+        font-size: 3rem;
+        top: 63.5%;
+        left: 10%;
+        font-family: 'BIZ UDPMincho', serif;
+        letter-spacing: 2rem;
+    }
+}
+
+// ニュース
+#news{
+    display: flex;
+    margin: 18rem 4rem 0;
+    width: calc(100% - 8rem);
+    .title{
+        font-size: 2rem;
+        margin: 0;
+    }
+    .article{
+        color: white;
+        display: flex;
+        font-size: 1.4rem;
+
+    }
+}
+
