@@ -3,7 +3,7 @@
 <html data-wf-page="63fb5f82e521f2ef72cb1b32" data-wf-site="63f46b611dc162d9bc6ff9bf">
 <head>
   <meta charset="utf-8">
-  <title>contact</title>
+  <title>家庭教師Forme</title>
   <meta content="contact" property="og:title">
   <meta content="contact" property="twitter:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -17,8 +17,8 @@
   <script type="text/javascript">WebFont.load({  google: {    families: ["BIZ UDGothic:regular","BIZ UDPMincho:regular","BIZ UDPGothic:regular"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="<?php bloginfo('template_url');?>/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <link href="<?php bloginfo('template_url');?>/images/webclip.png" rel="apple-touch-icon">
+  <link href="<?php bloginfo('template_url');?>/images/favicon-ori.png" rel="shortcut icon" type="image/x-icon">
+  <link href="<?php bloginfo('template_url');?>/images/favicon-ori.png" rel="apple-touch-icon">
   <?php wp_head(); ?>
 </head>
 <body class="body">
@@ -31,10 +31,9 @@
     <nav id="g-nav">
       <ul>
         <li><a href="<?php bloginfo('url'); ?>">Top</a></li>  
-        <li><a href="<?php bloginfo('url'); ?>/news">ニュース一覧</a></li>  
-        <li><a href="<?php bloginfo('url'); ?>/form">無料体験授業申し込み</a></li>  
-        <li><a href="<?php bloginfo('url'); ?>/contact">お問い合わせ</a></li>  
-        <li><a href="<?php bloginfo('url'); ?>/policy">プライバシーポリシー</a></li>  
+        <li><a href="<?php bloginfo('url'); ?>/news/">ニュース一覧</a></li>  
+        <li><a href="<?php bloginfo('url'); ?>/contact/">お問い合わせ</a></li>  
+        <li><a href="<?php bloginfo('url'); ?>/policy/">プライバシーポリシー</a></li>  
       </ul>
       </nav>
   </div>

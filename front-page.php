@@ -5,7 +5,7 @@
 <div class="div-block">
       <div class="text-block-5-copy">オンラインで学ぶ</div>
       <div class="text-block-5-copy second">家庭教師ForMe</div>
-      <a href="<?php bloginfo('url');?>/form/" class="button first w-button">無料で体験授業を受ける</a>
+      <a href="<?php bloginfo('url');?>/contact/" class="button first w-button">無料で体験授業を受ける</a>
     </div>
   </div>
   <div class="vertical"></div>
@@ -86,7 +86,7 @@
         </div>
       </div>
     </div>
-    <a href="<?php bloginfo('url');?>/form/" class="button w-button">無料で体験授業を受ける</a>
+    <a href="<?php bloginfo('url');?>/contact/" class="button w-button">無料で体験授業を受ける</a>
   </div>
   <div id="teacher" class="teacher-box wf-section">
     <div class="white-back teacher"></div>
@@ -96,7 +96,7 @@
         <img src="<?php bloginfo('template_url');?>/images/murakami.jpeg" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 40vw, (max-width: 991px) 34vw, 27vw" alt="" class="img">
         <div class="name">
           <div class="japanese">
-            <div class="japanese name">村上圭吾</div>
+            <div class="japanese name">村上慶悟</div>
             <div class="english"> murakamikeigo</div>
           </div>
         </div>
@@ -105,7 +105,7 @@
         <div class="text-block-18">こんにちは！代表の村上慶悟です！<br>‍<br>私は現在、大学3年生ですが普通の大学生とはちょっと違った人生を送ってきたと思っています。<br>‍<br>通常では中学卒業後、「高校」に進学すると思いますが、私は5年制の「高専」に進学しました。<br>‍<br>高専生の頃はマクドナルドでバイト三昧の日々、クラス底辺の成績でした（笑）<br>その後、もっと勉強したい！と思い愛知県の大学に3年次編入をしました。<br>‍<br>これまでの人生の中で大切にしてきたことは「経験」です。<br>‍<br>好奇心旺盛なこともあり、様々なことを自分から取り組んできましたし、その中で失敗もたくさん経験してきました。<br>‍<br>多くの経験をするには時間が必要です！ぜひ我々の授業を「経験」してみませんか？</div>
       </div>
     </div>
-    <a href="<?php bloginfo('url');?>/form/" class="button teacher w-button">無料で体験授業を受ける</a>
+    <a href="<?php bloginfo('url');?>/contact/" class="button teacher w-button">無料で体験授業を受ける</a>
   </div>
   <div id="news" class="news wf-section">
     <div class="text-block-19">

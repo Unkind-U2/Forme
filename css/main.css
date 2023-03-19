@@ -51,6 +51,29 @@ a {
   position: relative;
 
 }
+
+.privacy-policy *{
+  font-size: 2rem;
+  line-height: 3rem;
+  color: black;
+}
+
+.contact-form{
+  width: 100%;
+}
+
+.contact-form p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-form iframe{
+  max-width: 640px;
+  width: 80%;
+}
+
 @media screen and (min-width: 480px) {
   .header.DownMove{
     animation: DownAnime .5s forwards;
@@ -246,6 +269,7 @@ a {
   padding-right: 0px;
   border-radius: 50px;
   background-image: url('../images/pencil.jpg');
+  background-repeat: no-repeat;
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -1347,6 +1371,7 @@ a {
   justify-content: end;
   width: 80%;
   font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 .single-post .content{
@@ -1359,6 +1384,10 @@ a {
   padding: 2rem;
   border-radius: 30px;
   background-color: white;
+}
+
+.single-post .content p{
+  line-height: 1.5rem;
 }
 
 .single-post figure{
@@ -1388,15 +1417,20 @@ a {
   width: 100%;
   height: 100%;
   background-image: url(../images/pencil-p-800.jpg);
-  background-size: contain;
+  background-size: cover;
   background-color:rgba(255,255,255,0.8);
   background-blend-mode:lighten;
+  background-repeat: no-repeat;
   z-index: 998;
 }
 
 
 
 @media screen and (max-width: 991px) {
+  .tell-form::after{
+    width: 80%;
+  }
+
   .header_nav {
     font-size: 1rem;
   }
@@ -1465,7 +1499,7 @@ a {
   }
 
   .first-view {
-    height: 30rem;
+    height: 35rem;
   }
 
   .middle-fonts {
@@ -1792,6 +1826,10 @@ a {
 
 
 @media screen and (max-width: 767px) {
+  .tell-form::after{
+    width: 100%;
+  }
+
   .header {
     height: 5rem;
   }
@@ -1867,7 +1905,7 @@ a {
 }
   
   .text-vertical .second{
-    margin:25rem 0 0;
+    margin:23rem 0 0;
     font-size: 2.5rem;
     line-height: 3rem;
   }
@@ -2026,7 +2064,7 @@ a {
 
   .text-block-5-copy {
     left: 0px;
-    top: 5.5rem;
+    top: 8.5rem;
     right: 0%;
     width: 16rem;
     margin-right: auto;
@@ -2038,6 +2076,7 @@ a {
   .text-block-5-copy.second {
     width: 22rem;
     font-size: 2.2rem;
+    top: 10.5rem;
   }
 
   .teacher-img {
@@ -2081,6 +2120,11 @@ a {
 
   .post-line .img{
     display: none;
+  }
+
+  .privacy-policy *{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
@@ -2315,7 +2359,7 @@ a {
 
   .left-padding.img {
     height: auto;
-    max-width: 7rem;
+    max-width: 5rem;
     margin-left: 40%;
   }
 
@@ -2334,10 +2378,12 @@ a {
 
   .left-padding.toha {
     margin-left: 40%;
+    font-size: .7rem;
   }
 
   .left-padding.feature {
     margin-left: 40%;
+    font-size: .7rem;
   }
 
   .text-block-12 {
@@ -2364,7 +2410,7 @@ a {
     position: static;
     bottom: auto;
     width: 100%;
-    height: 10rem;
+    height: 7rem;
     max-height: 15rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2455,7 +2501,7 @@ a {
 
   .text-block-5-copy {
     left: 0px;
-    top: 4.1rem;
+    top: 7.1rem;
     right: 0%;
     width: 100%;
     margin-right: auto;
@@ -2470,6 +2516,7 @@ a {
     font-size: 2rem;
     display: flex;
     align-items: center;
+    top: 10.1rem;
   }
 
   .japanese {
@@ -2534,7 +2581,7 @@ a {
   }
     
   .div-block-13{
-    margin-top: 8rem;
+    margin-top: 4rem;
   }
 
   .title-box{
@@ -2553,6 +2600,10 @@ a {
   }
   .single-post .content{
     border-radius: 20px;
+  }
+  .privacy-policy *{
+    font-size: 1rem;
+    line-height: 1.2rem;
   }
 }
 

@@ -1,21 +1,19 @@
 <?php
 /*
-Template Name: ニュース一覧
+Template Name: プライバシーポリシー
 */
 ?>
 
-<?php get_header(); ?>
+<?php get_header("form"); ?>
   <div class="wf-section">
     <div class="div-block-13">
-      <div class="text-block-22">お知らせ</div>
+      <div class="text-block-22">プライバシーポリシー</div>
     </div>
   </div>
-  <div class="news-content">
+  <div class="privacy-policy">
   <ul role="list" class="list w-list-unstyled">
     <?php if(have_posts()): while(have_posts()): the_post();?>
-      <li class="list-item">
-        <a href="<?php the_permalink(); ?>" class="news-line"><?php echo get_the_date('Y.m.d'); ?> <?php the_title(); ?></a>
-      </li>
+      <?php the_content() ;?>
     <?php endwhile; endif; ?>
-    </ul>
+  </ul>
 <?php get_footer(); ?>

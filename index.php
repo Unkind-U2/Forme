@@ -129,7 +129,7 @@
       <div class="teacher-img"><img src="images/murakami.JPG" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 40vw, (max-width: 991px) 34vw, 27vw" srcset="images/murakami-p-500.jpg 500w, images/murakami-p-800.jpg 800w, images/murakami.JPG 1040w" alt="" class="img">
         <div class="name">
           <div class="japanese">
-            <div class="japanese name">村上圭吾</div>
+            <div class="japanese name">村上慶悟</div>
           </div>
           <div class="english"> murakamikeigo</div>
         </div>

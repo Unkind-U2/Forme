@@ -2,7 +2,7 @@
   <div class="footer wf-section">
     <div class="link-block">
       <a href="<?php bloginfo('url');?>/" class="link-image w-inline-block"><img src="<?php bloginfo('template_url');?>/images/logo_white.png" loading="lazy" alt=""></a>
-      <a href="<?php bloginfo('url');?>/form/" class="text-block-21">無料で体験授業を受ける</a>
+      <a href="<?php bloginfo('url');?>/contact/" class="text-block-21">無料で体験授業を受ける</a>
     </div>
     <div class="link-box">
       <ul role="list" class="list-2 w-list-unstyled">
