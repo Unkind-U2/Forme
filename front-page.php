@@ -77,7 +77,7 @@
     <div class="flex-layout">
       <div class="tell-form border-left">
         <div class="middle-fonts tell">お電話でのお問い合わせ</div>
-        <div class="middle-fonts number">0000－00－0000</div>
+        <div class="middle-fonts number">090-6459-2002</div>
       </div>
       <div class="tell-form border-right">
         <div class="middle-fonts">メールでのお問い合わせ</div>
